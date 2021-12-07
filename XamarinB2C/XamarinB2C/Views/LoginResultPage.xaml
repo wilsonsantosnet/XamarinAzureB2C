@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinB2C.Views.LoginResultPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="welcome"/>
+            <Label x:Name="issuer"/>
+            <Label x:Name="subject"/>
+            <Label x:Name="audience"/>
+            <Label x:Name="email"/>
+            <Button x:Name="SignOutBtn" Text="Sign out" Clicked="SignOutBtn_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
